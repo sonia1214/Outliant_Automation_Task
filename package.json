@@ -1,0 +1,22 @@
+{
+  "name": "vscode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/studio-booking-flow.js tests/dataBlobTest.js --timeout 120000 --reporter allure-mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "allure-js-commons": "^3.2.2",
+    "allure-mocha": "^3.2.2",
+    "chai": "^5.2.0",
+    "chromedriver": "^136.0.3",
+    "mocha": "^11.4.0",
+    "selenium-webdriver": "^4.32.0"
+  }
+}

@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1","Verify data blob encoding and navigation","Data Blob Test","Sun May 25 11:57:32 PKT 2025","passed","Sun May 25 11:57:32 PKT 2025","","","",""
+"","2561","Verify data blob encoding and navigation with blank email","Data Blob Test","Sun May 25 11:57:37 PKT 2025","passed","Sun May 25 11:57:40 PKT 2025","","","",""
+"","41395","Navigate to the Free Class Booking page, extract studio details (city, state, ZIP, phone) from the studio page, and verify they match the booking form information.","Verify Studio Information Consistency on Free Class Booking Page","Sun May 25 11:56:29 PKT 2025","passed","Sun May 25 11:57:10 PKT 2025","","","",""
+"","4889","Verify data blob encoding and navigation with different data","Data Blob Test","Sun May 25 11:57:32 PKT 2025","passed","Sun May 25 11:57:37 PKT 2025","","","",""
+"","330","Verify error message on empty form submission for first name and last name text field","Verify Studio Information Consistency on Free Class Booking Page","Sun May 25 11:57:10 PKT 2025","passed","Sun May 25 11:57:11 PKT 2025","","","",""

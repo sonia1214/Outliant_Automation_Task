@@ -1,0 +1,5 @@
+{
+  "timeout": 120000,
+  "recursive": true,
+  "reporter": "allure-mocha"
+}
