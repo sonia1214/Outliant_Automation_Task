@@ -35,8 +35,6 @@ describe('Verify Studio Information Consistency on Free Class Booking Page', fun
         console.log('Opening homepage...');
         await homePage.open();
         console.log('Homepage opened successfully');
-        // Set implicit wait
-        // await driver.manage().setTimeouts({ implicit: 40000 });
     });
 
     /**
