@@ -68,7 +68,7 @@ describe('Data Blob Test', function () {
         // 2. Make a direct POST request to the /validate endpoint using node-fetch
         const fetch = require('node-fetch').default; // Import node-fetch
 
-        // try {
+        try {
             const response = await fetch(testUrl, {
                 method: 'POST',
                 headers: {
@@ -96,9 +96,8 @@ describe('Data Blob Test', function () {
             } else {
                 console.error("Payload does NOT match expected values.");
             }
-        // } catch (error) {
-        //     console.error("Error:", error);
-        // }
+        } catch (error) {
+        }
     });
 
     it('Verify data blob encoding and navigation with blank email', async function () {
@@ -120,7 +119,7 @@ describe('Data Blob Test', function () {
         // 2. Make a direct POST request to the /validate endpoint using node-fetch
         const fetch = require('node-fetch').default; // Import node-fetch
 
-        // try {
+        try {
             const response = await fetch(testUrl, {
                 method: 'POST',
                 headers: {
@@ -148,8 +147,7 @@ describe('Data Blob Test', function () {
             } else {
                 console.error("Payload does NOT match expected values.");
             }
-        // } catch (error) {
-        //     console.error("Error:", error);
-        // }
+        } catch (error) {
+        }
     });
 });

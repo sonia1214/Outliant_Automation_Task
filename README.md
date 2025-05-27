@@ -11,7 +11,7 @@ This command will run the tests located in the `tests/studio-booking-flow.js` an
 To generate the allure report, execute the following commands:
 
 ```
-npx allure generate allure-results -o allure-report
+npx allure generate allure-results -o allure-report --clean
 npx allure open allure-report
 ```
 
